@@ -18,7 +18,7 @@ int main(void)
 				putchar(a + '0');
 				putchar(b + '0');
 				putchar(c + '0');
-				if (((a * 100) + (b * 10) + k) < 789)
+				if (((a * 100) + (b * 10) + c) < 789)
 				{
 					putchar(',');
 					putchar(' ');
