@@ -15,7 +15,7 @@ int main(void)
 		printf("%d", sum);
 
 		if (num == 49)
-			printf('\n');
+			printf("\n");
 		else
 			printf(", ");
 	}
