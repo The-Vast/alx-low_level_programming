@@ -2,7 +2,7 @@
 
 /**
  * print_sign - function that prints sign
- * n: integer to be checked
+ * @n: integer to be checked
  * Return: n > 0; 1 is returned,
  *	n = 0 ; 0 is returned,
  *	n < 0; -1 is returned
