@@ -13,7 +13,7 @@ int main(void)
 	unsigned long half1_num1, half2_num1, half1_num2, half2_num2;
 	unsigned long half1, half2;
 
-	for(count = 0; count < 92; count++)
+	for (count = 0; count < 92; count++)
 	{
 		sum = num1 + num2;
 		printf("%lu, ", sum);
