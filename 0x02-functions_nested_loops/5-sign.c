@@ -3,9 +3,9 @@
 /**
  * print_sign - function that prints sign
  * n: integer to be checked
- * Return: n > 0; 1 is returned, 
- * 	   n = 0 ; 0 is returned, 
- * 	   n < 0; -1 is returned
+ * Return: n > 0; 1 is returned,
+ * 	n = 0 ; 0 is returned,
+ * 	n < 0; -1 is returned
  */
 
 int print_sign(int n)
