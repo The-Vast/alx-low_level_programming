@@ -22,19 +22,19 @@ int main(void)
 		num2 = sum;
 	}
 
-	half1_num1 = num1 / 10000000000;
-	half1_num2 = num2 / 10000000000;
-	half2_num1 = num1 % 10000000000;
-	half2_num2 = num2 % 10000000000;
+	half1_num1 = num1 / 1000000000;
+	half1_num2 = num2 / 1000000000;
+	half2_num1 = num1 % 1000000000;
+	half2_num2 = num2 % 1000000000;
 
 	for (count = 93; count < 99; count++)
 	{
 		half1 = half1_num1 + half1_num2;
 		half2 = half2_num1 + half2_num2;
-		if (half2_num1 + half2_num2 > 999999999)
+		if (half2_num1 + half2_num2 > 99999999)
 		{
 			half1 += 1;
-			half2 %= 10000000000;
+			half2 %= 1000000000;
 		}
 
 		printf("%lu%lu", half1, half2);
