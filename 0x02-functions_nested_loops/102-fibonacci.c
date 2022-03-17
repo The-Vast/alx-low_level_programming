@@ -7,12 +7,13 @@
 
 int main(void)
 {
-	int num, num1 = 0, num2 = 1, sum;
+	int num;
+	unsigned long num1 = 0, num2 = 1, sum;
 
 	for (num = 0; num < 50; num++)
 	{
 		sum = num1 + num2;
-		printf("%d", sum);
+		printf("%lu", sum);
 
 		num1 = num2;
 		num2 = sum;
