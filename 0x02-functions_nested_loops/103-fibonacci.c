@@ -11,7 +11,7 @@ int main(void)
 	float total;
 	unsigned long num1 = 0, num2 = 1, sum;
 
-	for (count = 0; count <= 4000000; count++)
+	for (count = 1; count <= 4000000; count++)
 	{
 		sum = num1 + num2;
 		if ((sum % 2) == 0)
