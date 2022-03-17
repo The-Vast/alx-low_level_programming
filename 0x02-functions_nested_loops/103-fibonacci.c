@@ -7,6 +7,7 @@
 
 int main(void)
 {
+	int count;
 	float total;
 	unsigned long num1 = 0, num2 = 1, sum;
 
