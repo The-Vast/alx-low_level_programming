@@ -12,3 +12,4 @@ print_square - a function that prints a square, followed by a new line.
 Fizz-Buzz - a program that prints the numbers from 1 to 100, followed by a new line
 print_triangle - a function that prints a triangle, followed by a new line.
 With advanced tasks
+void print_most_numbers(void);
