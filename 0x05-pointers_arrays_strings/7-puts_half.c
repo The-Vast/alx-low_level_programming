@@ -22,7 +22,9 @@ void puts_half(char *str)
 		       _putchar(str[i]);
 		_putchar('\n');
 	} else
+	{
 		for (i = (len - 1) / 2; i < len; i++)
 			_putchar(str[i]);
 		_putchar('\n');
+	}
 }
