@@ -2,7 +2,7 @@
 
 /**
  * puts_half - unction that prints half of a string
- * @str - string to be halfed
+ * @str:  string to be halfed
  */
 
 void puts_half(char *str)
@@ -18,10 +18,11 @@ void puts_half(char *str)
 
 	if (len % 2 == 0)
 	{
-		for (i = len / 2; i < len; i++)
+		for (i = (len / 2) + 1; i < len; i++)
 		       _putchar(str[i]);
 		_putchar('\n');
-	} else
+	}
+	else
 	{
 		for (i = (len - 1) / 2; i < len; i++)
 			_putchar(str[i]);
