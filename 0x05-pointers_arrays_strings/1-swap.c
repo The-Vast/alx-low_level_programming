@@ -5,10 +5,9 @@
  * @a: first argument to be swaped
  * @b: second argument being swapped to
  */
-ii
 void swap_int(int *a, int *b)
 {
-	int c = *a;
+	int c;
 
 	*a = *b;
 	*b = c;
