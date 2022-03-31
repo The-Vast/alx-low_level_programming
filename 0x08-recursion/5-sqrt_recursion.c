@@ -3,11 +3,7 @@
 /**
  * find_sqrt - Finds the natural square root of an inputted number.
  * @num: The number to find the square root of.
- * @root: The root to be tested.
- *
- *_sqrt_recursion - function that returns the natural
- * square root of a number.
- * @n: number to be evaluated
+ * @root: The root to be teste.
  * Return: -1 If n does not have a natural square root
  */
 int find_sqrt(int num, int root)
@@ -20,6 +16,12 @@ int find_sqrt(int num, int root)
 	return (find_sqrt(num, root + 1));
 }
 
+/**
+ *_sqrt_recursion - function that returns the natural square
+ * root of a number
+ * @n: number to be evaluated
+ * Return: square root integer
+ */
 int _sqrt_recursion(int n)
 {
 	int root = 0;
